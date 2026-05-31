@@ -62,6 +62,14 @@ DATABASES = {
     }
 }
 
+# In CI we run the test suite without a Postgres server: use in-memory SQLite.
+# Triggered by setting DJANGO_TEST_SQLITE=1 (see Jenkinsfile).
+if os.environ.get("DJANGO_TEST_SQLITE") == "1":
+    DATABASES["default"] = {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": ":memory:",
+    }
+
 AUTH_PASSWORD_VALIDATORS = []
 
 LANGUAGE_CODE = "en-us"

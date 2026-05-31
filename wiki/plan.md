@@ -16,6 +16,10 @@ app as the "product"; every tool acts on that one app. Local-first via Docker,
 using AWS vocabulary. Built-in fallback: if time runs short Sunday night, stop
 building and convert remaining phases to talking points.
 
+## Kanban board
+GitHub Project "DevOps Analytics Demo": https://github.com/users/emmanuel197/projects/2
+Columns: Backlog → Ready → In progress → In review → Done. 7 phase cards added.
+
 ## The backbone app: TaskBoard
 Tiny Django + Postgres REST app: `Task(title, status, priority, created_at)` +
 admin + one API endpoint + `/metrics`. Dockerized (web + db). Its DB is also the

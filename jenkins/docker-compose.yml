@@ -1,0 +1,18 @@
+services:
+  jenkins:
+    build: .
+    # Run as root so the container can use the mounted Docker socket without
+    # group-permission juggling (fine for a local learning setup).
+    user: root
+    ports:
+      - "8080:8080"     # Jenkins web UI
+      - "50000:50000"   # agent port
+    volumes:
+      - jenkins_home:/var/jenkins_home
+      # Give Jenkins access to the host Docker daemon (Docker Desktop on Windows
+      # exposes the engine at this path for Linux containers).
+      - /var/run/docker.sock:/var/run/docker.sock
+    restart: unless-stopped
+
+volumes:
+  jenkins_home:
