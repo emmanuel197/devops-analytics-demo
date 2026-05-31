@@ -20,7 +20,7 @@ ready to skim Monday morning. Filled rows appear as phases complete.
 ## Per-tool one-liners
 | Tool | What it is (1 line) | What I built | Maps to |
 |------|---------------------|--------------|---------|
-| Jenkins | _tbd_ | _tbd_ | GitHub Actions |
+| Jenkins | Self-hosted CI/CD server; pipeline-as-code in a Jenkinsfile | Dockerized Jenkins, SCM pipeline: checkout→build image→test, green build | GitHub Actions (Jenkinsfile ≈ deploy.yml) |
 | Prometheus+Grafana | _tbd_ | _tbd_ | monitoring |
 | Terraform | _tbd_ | _tbd_ | infra-as-code |
 | Ansible | _tbd_ | _tbd_ | config mgmt |

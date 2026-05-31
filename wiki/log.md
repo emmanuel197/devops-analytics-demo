@@ -2,6 +2,13 @@
 
 Append-only, newest at top. Format: `## [YYYY-MM-DD HH:MM] verb | title`.
 
+## [2026-05-31] phase-1 | Jenkins CI pipeline green
+- Ran Jenkins LTS in Docker (custom image: + Docker CLI + plugins; socket mounted).
+- Pipeline job from SCM (GitHub repo) runs Jenkinsfile: Checkout → Build image → Test.
+- Build #1 SUCCESS: built/tagged taskboard:1 + :latest, `Ran 4 tests ... OK`.
+- Added DJANGO_TEST_SQLITE branch so CI tests run on in-memory SQLite (no Postgres).
+- Phase 1 DONE. Next: Phase 2 — Prometheus + Grafana.
+
 ## [2026-05-30] phase-0 | App verified + diagrams rendered
 - `docker compose up` succeeds: web + db (healthy) containers running.
 - Verified endpoints: /api/tasks/ (JSON), /metrics (Prometheus), 250 tasks seeded.

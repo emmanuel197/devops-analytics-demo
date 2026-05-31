@@ -29,7 +29,7 @@ dataset for Power BI.
 | # | Phase | Est | Status | Page |
 |---|-------|-----|--------|------|
 | 0 | Setup + Agile board + scaffold app | 45m | done | this page |
-| 1 | Jenkins CI pipeline | 2.5h | not-started | [[concepts/jenkins]] |
+| 1 | Jenkins CI pipeline | 2.5h | done | [[concepts/jenkins]] |
 | 2 | Prometheus + Grafana | 2.5h | not-started | [[concepts/prometheus-grafana]] |
 | 3 | Terraform (IaC) | 2.5h | not-started | [[concepts/terraform]] |
 | 4 | Ansible (config mgmt) | 2h | not-started | [[concepts/ansible]] |
