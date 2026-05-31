@@ -1,0 +1,16 @@
+flowchart LR
+    Dev["You / Browser"]
+
+    subgraph Compose["docker compose (Phase 0 - DONE)"]
+        Web["web container<br/>Django + gunicorn<br/>:8000"]
+        DB[("db container<br/>Postgres 16<br/>:5432")]
+        Web -->|"SQL"| DB
+    end
+
+    Dev -->|"localhost:8000"| Web
+    Web --> API["/api/tasks/<br/>REST API"]
+    Web --> Admin["/admin/<br/>(admin/admin)"]
+    Web --> Metrics["/metrics<br/>Prometheus format"]
+
+    classDef done fill:#d4edda,stroke:#28a745,color:#155724;
+    class Web,DB,API,Admin,Metrics done;

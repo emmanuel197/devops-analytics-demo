@@ -1,0 +1,14 @@
+flowchart LR
+    P0["Phase 0<br/>App + Kanban"] --> P1["Phase 1<br/>Jenkins CI"]
+    P1 --> P2["Phase 2<br/>Prometheus<br/>+ Grafana"]
+    P2 --> P3["Phase 3<br/>Terraform"]
+    P3 --> P4["Phase 4<br/>Ansible"]
+    P4 --> P5["Phase 5<br/>Power BI"]
+    P5 --> P6["Phase 6<br/>ELK (stretch)"]
+    P6 --> P7["Phase 7<br/>Agile study<br/>+ cheat sheet"]
+
+    classDef done fill:#d4edda,stroke:#28a745,color:#155724;
+    classDef active fill:#cce5ff,stroke:#007bff,color:#004085;
+    classDef todo fill:#fff3cd,stroke:#ffc107,color:#856404;
+    class P0 active;
+    class P1,P2,P3,P4,P5,P6,P7 todo;

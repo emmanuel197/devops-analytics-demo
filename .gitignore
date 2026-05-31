@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+
+# Django
+app/staticfiles/
+*.sqlite3
+
+# Env / secrets
+.env
+*.tfvars
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# OS
+Thumbs.db
+.DS_Store
