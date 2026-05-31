@@ -1,0 +1,56 @@
+---
+title: CI — Mid Level (which file drives which file)
+---
+flowchart TB
+    subgraph host["Your Windows host + Docker Desktop daemon"]
+      sock[("/var/run/docker.sock<br/>(host Docker daemon)")]
+    end
+
+    subgraph jstack["jenkins/  — the CI server itself"]
+      jdc["docker-compose.yml<br/>mounts docker.sock,<br/>ports 8080/50000"]
+      jdf["Dockerfile<br/>jenkins/jenkins:lts<br/>+ docker CLI + plugins"]
+      jdc --> jdf
+    end
+    jdc -. mounts .-> sock
+
+    jf["Jenkinsfile (pipeline)"]
+    jdf -. runs .-> jf
+
+    subgraph stages["Jenkinsfile stages"]
+      s1["Checkout: checkout scm"]
+      s2["Build image:<br/>docker build app/"]
+      s3["Test:<br/>docker run --entrypoint sh<br/>DJANGO_TEST_SQLITE=1<br/>manage.py test"]
+      s1 --> s2 --> s3
+    end
+    jf --> s1
+
+    subgraph appbuild["app/  — what gets built"]
+      adf["Dockerfile<br/>python:3.12-slim"]
+      req["requirements.txt"]
+      ep["entrypoint.sh"]
+      code["Django source<br/>(taskboard/ + tasks/)"]
+      adf --> req
+      adf --> code
+      adf --> ep
+    end
+
+    s2 -- "docker build -t taskboard" --> adf
+    s2 -. talks to .-> sock
+    s3 -. talks to .-> sock
+    s3 -- "runs tests inside image" --> code
+
+    set["settings.py:<br/>if DJANGO_TEST_SQLITE==1<br/>→ in-memory SQLite<br/>(no Postgres needed in CI)"]
+    s3 --> set
+
+    subgraph runtime["app/docker-compose.yml — RUNTIME (not CI)"]
+      web["web: built image<br/>entrypoint.sh → gunicorn"]
+      db[("db: postgres:16")]
+      web -- POSTGRES_HOST=db --> db
+    end
+    adf -. same image .-> web
+    ep --> web
+
+    classDef ci fill:#bee3f8,stroke:#2a4365;
+    classDef app fill:#c6f6d5,stroke:#22543d;
+    class jstack,stages,jf ci
+    class appbuild,runtime app

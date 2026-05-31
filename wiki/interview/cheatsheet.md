@@ -24,7 +24,7 @@ ready to skim Monday morning. Filled rows appear as phases complete.
 | Prometheus+Grafana | _tbd_ | _tbd_ | monitoring |
 | Terraform | _tbd_ | _tbd_ | infra-as-code |
 | Ansible | _tbd_ | _tbd_ | config mgmt |
-| Power BI | _tbd_ | _tbd_ | data modeling |
+| Power BI | BI tool: connect→model→DAX measures→visuals | Live-connected to Postgres, 4 DAX measures, dashboard (cards/donut/bar/line), .pbix | SQL data modeling; DAX ≈ SQL aggregates |
 | ELK | _tbd_ | _tbd_ | logging |
 | Agile/SDLC | _tbd_ | _tbd_ | how I ship |
 

@@ -33,7 +33,7 @@ dataset for Power BI.
 | 2 | Prometheus + Grafana | 2.5h | not-started | [[concepts/prometheus-grafana]] |
 | 3 | Terraform (IaC) | 2.5h | not-started | [[concepts/terraform]] |
 | 4 | Ansible (config mgmt) | 2h | not-started | [[concepts/ansible]] |
-| 5 | Power BI dashboard | 3.5h | not-started | [[concepts/power-bi]] |
+| 5 | Power BI dashboard | 3.5h | done | [[concepts/power-bi]] |
 | 6 | ELK logging (stretch) | 2h | not-started | [[concepts/elk]] |
 | 7 | Agile/SDLC study + cheat sheet | 1h | not-started | [[concepts/agile-sdlc]] |
 

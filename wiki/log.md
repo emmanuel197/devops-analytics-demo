@@ -2,6 +2,14 @@
 
 Append-only, newest at top. Format: `## [YYYY-MM-DD HH:MM] verb | title`.
 
+## [2026-05-31] phase-5 | Power BI dashboard built (done out of order)
+- Installed Power BI Desktop (winget). Connected LIVE to Postgres taskboard DB.
+- Wrote 4 DAX measures (Total/Completed/Completion Rate/Avg Days to Complete).
+- Dashboard: 4 KPI cards + donut (status) + stacked column (priority×status) +
+  line (created_at). Saved powerbi/taskboard-analytics.pbix.
+- 250 tasks, 120 done, 48% completion, 5.33 avg days. Phase 5 DONE.
+- Next recommended: Phase 2 (Prometheus+Grafana) or cheat sheet finalize.
+
 ## [2026-05-31] phase-1 | Jenkins CI pipeline green
 - Ran Jenkins LTS in Docker (custom image: + Docker CLI + plugins; socket mounted).
 - Pipeline job from SCM (GitHub repo) runs Jenkinsfile: Checkout → Build image → Test.

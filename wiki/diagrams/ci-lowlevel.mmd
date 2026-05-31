@@ -1,0 +1,39 @@
+---
+title: CI — Low Level (statement-by-statement inside the image)
+---
+flowchart TB
+    start(["docker run ... manage.py test"]) --> mg
+
+    subgraph boot["Python/Django bootstrap (every entry point)"]
+      mg["manage.py<br/>os.environ.setdefault<br/>DJANGO_SETTINGS_MODULE=taskboard.settings"]
+      mg --> efc["execute_from_command_line(sys.argv)<br/>→ dispatches 'test' command"]
+      efc --> setld["settings.py loaded<br/>INSTALLED_APPS, MIDDLEWARE,<br/>DATABASES, REST_FRAMEWORK"]
+      setld --> sqlite{"DJANGO_TEST_SQLITE == 1 ?"}
+      sqlite -- yes (CI) --> mem["DATABASES = sqlite3 :memory:"]
+      sqlite -- no (runtime) --> pg["DATABASES = postgres @ db:5432"]
+    end
+
+    subgraph testflow["Test execution — tests.py"]
+      mem --> tc["TestCase builds temp DB<br/>+ runs migrations 0001_initial"]
+      tc --> t1["test_str_returns_title →<br/>Task.objects.create() → models.py __str__"]
+      tc --> t2["test_list_endpoint_returns_200<br/>client.get('/api/tasks/')"]
+      t2 --> route["taskboard/urls.py: path('api/') →<br/>tasks/urls.py router → TaskViewSet"]
+      route --> vs["views.py TaskViewSet<br/>queryset Task.objects.all()"]
+      vs --> ser["serializers.py TaskSerializer<br/>→ JSON, status 200/201"]
+      ser --> model["models.py Task<br/>Status / Priority choices"]
+    end
+
+    t1 --> result
+    ser --> result["assertEqual / assertTrue<br/>→ exit 0 (pass) or non-zero (fail)"]
+    result --> back(["exit code → Jenkins Test stage<br/>non-zero fails the build"])
+
+    subgraph rt["RUNTIME path (entrypoint.sh, gunicorn — not in CI test)"]
+      direction LR
+      e1["migrate"] --> e2["collectstatic"] --> e3["createsuperuser"] --> e4["seed_tasks"] --> e5["exec gunicorn → wsgi.py application"]
+    end
+    pg -.-> e1
+
+    classDef ci fill:#bee3f8,stroke:#2a4365;
+    classDef run fill:#e9d8fd,stroke:#44337a;
+    class boot,testflow ci
+    class rt run

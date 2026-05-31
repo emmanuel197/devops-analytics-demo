@@ -1,0 +1,23 @@
+---
+title: CI — High Level (why Jenkins exists)
+---
+flowchart LR
+    dev([You: edit Django code]) --> commit[git commit / push]
+    commit --> trig{{Jenkins triggered}}
+
+    subgraph CI["Jenkins CI server (jenkins/ container, port 8080)"]
+        direction TB
+        co[Checkout code] --> build[Build Docker image] --> test[Run test suite]
+    end
+
+    trig --> co
+    test --> pass{All tests pass?}
+    pass -- yes --> green["✅ image taskboard:latest<br/>is known-good, deployable"]
+    pass -- no --> red["❌ stop — broken code<br/>never reaches deploy"]
+
+    green -.-> run["Run app anywhere<br/>(app/docker-compose.yml)"]
+
+    classDef done fill:#c6f6d5,stroke:#22543d;
+    classDef warn fill:#fefcbf,stroke:#744210;
+    class CI,green done
+    class red warn

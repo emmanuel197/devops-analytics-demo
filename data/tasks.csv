@@ -1,0 +1,251 @@
+id,title,status,priority,created_at,completed_at
+79,Provision API gateway #79,in_progress,low,2026-03-01 12:01:23.924882+00,
+6,Migrate cache layer #6,done,low,2026-03-02 19:01:23.924882+00,2026-03-05 19:01:23.924882+00
+223,Configure cache layer #223,in_progress,high,2026-03-03 01:01:23.924882+00,
+109,Provision billing module #109,todo,high,2026-03-03 17:01:23.924882+00,
+196,Migrate cache layer #196,done,medium,2026-03-03 18:01:23.924882+00,2026-03-12 18:01:23.924882+00
+108,Patch Terraform module #108,todo,medium,2026-03-04 21:01:23.924882+00,
+245,Patch log shipper #245,done,low,2026-03-05 05:01:23.924882+00,2026-03-14 05:01:23.924882+00
+203,Deploy Ansible playbook #203,todo,medium,2026-03-05 13:01:23.924882+00,
+166,Automate dashboard #166,done,medium,2026-03-05 13:01:23.924882+00,2026-03-12 13:01:23.924882+00
+50,Document database #50,in_progress,low,2026-03-05 21:01:23.924882+00,
+115,Deploy auth service #115,done,low,2026-03-06 02:01:23.924882+00,2026-03-15 02:01:23.924882+00
+111,Automate metrics exporter #111,done,low,2026-03-06 05:01:23.924882+00,2026-03-15 05:01:23.924882+00
+19,Patch CI pipeline #19,todo,high,2026-03-06 12:01:23.924882+00,
+116,Configure database #116,done,medium,2026-03-07 10:01:23.924882+00,2026-03-08 10:01:23.924882+00
+36,Migrate Ansible playbook #36,done,low,2026-03-08 15:01:23.924882+00,2026-03-11 15:01:23.924882+00
+168,Investigate database #168,done,medium,2026-03-08 16:01:23.924882+00,2026-03-15 16:01:23.924882+00
+21,Deploy cache layer #21,todo,medium,2026-03-08 17:01:23.924882+00,
+85,Patch database #85,in_progress,low,2026-03-09 03:01:23.924882+00,
+211,Monitor CI pipeline #211,done,high,2026-03-09 05:01:23.924882+00,2026-03-13 05:01:23.924882+00
+105,Migrate cache layer #105,in_progress,medium,2026-03-09 14:01:23.924882+00,
+11,Migrate log shipper #11,in_progress,medium,2026-03-09 17:01:23.924882+00,
+249,Migrate billing module #249,in_progress,medium,2026-03-09 23:01:23.924882+00,
+57,Document auth service #57,done,medium,2026-03-10 20:01:23.924882+00,2026-03-15 20:01:23.924882+00
+243,Provision dashboard #243,todo,medium,2026-03-11 02:01:23.924882+00,
+205,Review database #205,todo,medium,2026-03-11 11:01:23.924882+00,
+20,Refactor billing module #20,done,medium,2026-03-11 15:01:23.924882+00,2026-03-14 15:01:23.924882+00
+93,Monitor metrics exporter #93,done,medium,2026-03-12 13:01:23.924882+00,2026-03-20 13:01:23.924882+00
+14,Refactor Grafana panel #14,in_progress,low,2026-03-13 01:01:23.924882+00,
+242,Configure auth service #242,done,low,2026-03-13 11:01:23.924882+00,2026-03-17 11:01:23.924882+00
+13,Automate dashboard #13,todo,medium,2026-03-14 11:01:23.924882+00,
+76,Monitor cache layer #76,in_progress,medium,2026-03-14 16:01:23.924882+00,
+138,Configure API gateway #138,in_progress,low,2026-03-14 18:01:23.924882+00,
+247,Monitor API gateway #247,todo,high,2026-03-14 18:01:23.924882+00,
+238,Monitor database #238,todo,high,2026-03-14 21:01:23.924882+00,
+60,Deploy API gateway #60,todo,low,2026-03-14 21:01:23.924882+00,
+22,Configure auth service #22,done,low,2026-03-15 01:01:23.924882+00,2026-03-23 01:01:23.924882+00
+41,Deploy log shipper #41,todo,medium,2026-03-15 05:01:23.924882+00,
+129,Migrate dashboard #129,done,low,2026-03-15 08:01:23.924882+00,2026-03-16 08:01:23.924882+00
+124,Monitor metrics exporter #124,todo,medium,2026-03-15 13:01:23.924882+00,
+81,Configure dashboard #81,in_progress,medium,2026-03-15 22:01:23.924882+00,
+84,Review cache layer #84,done,medium,2026-03-15 23:01:23.924882+00,2026-03-19 23:01:23.924882+00
+177,Refactor billing module #177,in_progress,high,2026-03-16 07:01:23.924882+00,
+88,Refactor cache layer #88,done,medium,2026-03-17 03:01:23.924882+00,2026-03-27 03:01:23.924882+00
+159,Configure dashboard #159,done,medium,2026-03-17 12:01:23.924882+00,2026-03-18 12:01:23.924882+00
+103,Review database #103,done,medium,2026-03-17 18:01:23.924882+00,2026-03-26 18:01:23.924882+00
+24,Automate auth service #24,done,low,2026-03-18 01:01:23.924882+00,2026-03-25 01:01:23.924882+00
+66,Document Ansible playbook #66,done,low,2026-03-18 08:01:23.924882+00,2026-03-19 08:01:23.924882+00
+97,Monitor CI pipeline #97,done,low,2026-03-18 08:01:23.924882+00,2026-03-27 08:01:23.924882+00
+137,Optimize Ansible playbook #137,todo,low,2026-03-18 15:01:23.924882+00,
+156,Monitor log shipper #156,done,medium,2026-03-18 17:01:23.924882+00,2026-03-25 17:01:23.924882+00
+152,Document metrics exporter #152,in_progress,low,2026-03-19 01:01:23.924882+00,
+201,Document billing module #201,in_progress,medium,2026-03-19 05:01:23.924882+00,
+190,Automate Ansible playbook #190,in_progress,high,2026-03-19 08:01:23.924882+00,
+134,Provision Grafana panel #134,done,medium,2026-03-19 09:01:23.924882+00,2026-03-22 09:01:23.924882+00
+240,Migrate cache layer #240,in_progress,low,2026-03-19 13:01:23.924882+00,
+78,Investigate API gateway #78,todo,medium,2026-03-19 23:01:23.924882+00,
+90,Document metrics exporter #90,done,medium,2026-03-20 00:01:23.924882+00,2026-03-26 00:01:23.924882+00
+222,Review Ansible playbook #222,done,medium,2026-03-20 01:01:23.924882+00,2026-03-21 01:01:23.924882+00
+157,Configure Grafana panel #157,done,medium,2026-03-20 07:01:23.924882+00,2026-03-26 07:01:23.924882+00
+140,Review database #140,done,medium,2026-03-20 08:01:23.924882+00,2026-03-27 08:01:23.924882+00
+204,Document metrics exporter #204,in_progress,medium,2026-03-20 14:01:23.924882+00,
+176,Configure Grafana panel #176,in_progress,low,2026-03-21 17:01:23.924882+00,
+215,Review Terraform module #215,done,medium,2026-03-22 02:01:23.924882+00,2026-03-27 02:01:23.924882+00
+17,Refactor billing module #17,in_progress,medium,2026-03-22 02:01:23.924882+00,
+99,Migrate Grafana panel #99,todo,high,2026-03-22 07:01:23.924882+00,
+158,Document billing module #158,in_progress,low,2026-03-22 20:01:23.924882+00,
+226,Refactor dashboard #226,todo,medium,2026-03-23 04:01:23.924882+00,
+210,Review Terraform module #210,done,low,2026-03-23 19:01:23.924882+00,2026-03-28 19:01:23.924882+00
+173,Refactor Ansible playbook #173,done,high,2026-03-24 01:01:23.924882+00,2026-03-26 01:01:23.924882+00
+218,Investigate API gateway #218,done,medium,2026-03-24 10:01:23.924882+00,2026-03-25 10:01:23.924882+00
+154,Migrate cache layer #154,todo,high,2026-03-24 14:01:23.924882+00,
+96,Refactor billing module #96,done,medium,2026-03-24 22:01:23.924882+00,2026-03-30 22:01:23.924882+00
+104,Deploy database #104,todo,high,2026-03-25 04:01:23.924882+00,
+5,Investigate Grafana panel #5,todo,medium,2026-03-25 08:01:23.924882+00,
+1,Investigate dashboard #1,done,medium,2026-03-25 14:01:23.924882+00,2026-03-31 14:01:23.924882+00
+155,Review cache layer #155,in_progress,low,2026-03-25 17:01:23.924882+00,
+87,Monitor API gateway #87,done,high,2026-03-25 20:01:23.924882+00,2026-04-03 20:01:23.924882+00
+34,Monitor billing module #34,todo,medium,2026-03-25 21:01:23.924882+00,
+193,Configure cache layer #193,done,low,2026-03-26 03:01:23.924882+00,2026-03-30 03:01:23.924882+00
+113,Deploy log shipper #113,todo,medium,2026-03-26 15:01:23.924882+00,
+70,Investigate metrics exporter #70,todo,high,2026-03-26 19:01:23.924882+00,
+8,Refactor API gateway #8,done,high,2026-03-27 05:01:23.924882+00,2026-04-06 05:01:23.924882+00
+184,Provision billing module #184,in_progress,low,2026-03-27 07:01:23.924882+00,
+187,Deploy database #187,in_progress,medium,2026-03-27 07:01:23.924882+00,
+175,Provision database #175,done,medium,2026-03-27 20:01:23.924882+00,2026-04-02 20:01:23.924882+00
+178,Refactor auth service #178,in_progress,low,2026-03-28 03:01:23.924882+00,
+122,Optimize log shipper #122,todo,low,2026-03-28 08:01:23.924882+00,
+45,Automate billing module #45,done,high,2026-03-28 18:01:23.924882+00,2026-04-02 18:01:23.924882+00
+181,Review database #181,done,high,2026-03-29 01:01:23.924882+00,2026-03-30 01:01:23.924882+00
+167,Monitor metrics exporter #167,todo,medium,2026-03-29 07:01:23.924882+00,
+102,Refactor Ansible playbook #102,done,low,2026-03-30 11:01:23.924882+00,2026-04-06 11:01:23.924882+00
+237,Migrate CI pipeline #237,in_progress,medium,2026-03-30 18:01:23.924882+00,
+219,Review Ansible playbook #219,done,high,2026-03-30 22:01:23.924882+00,2026-03-31 22:01:23.924882+00
+180,Provision Terraform module #180,in_progress,high,2026-03-31 01:01:23.924882+00,
+80,Review metrics exporter #80,todo,low,2026-03-31 09:01:23.924882+00,
+120,Migrate cache layer #120,done,medium,2026-04-01 02:01:23.924882+00,2026-04-09 02:01:23.924882+00
+188,Document Terraform module #188,done,low,2026-04-02 13:01:23.924882+00,2026-04-04 13:01:23.924882+00
+179,Investigate CI pipeline #179,todo,medium,2026-04-03 08:01:23.924882+00,
+9,Patch Ansible playbook #9,done,high,2026-04-03 22:01:23.924882+00,2026-04-08 22:01:23.924882+00
+39,Document dashboard #39,todo,high,2026-04-04 00:01:23.924882+00,
+47,Provision Ansible playbook #47,in_progress,medium,2026-04-04 08:01:23.924882+00,
+37,Configure auth service #37,done,medium,2026-04-06 08:01:23.924882+00,2026-04-12 08:01:23.924882+00
+131,Migrate Grafana panel #131,done,medium,2026-04-06 09:01:23.924882+00,2026-04-11 09:01:23.924882+00
+174,Document CI pipeline #174,in_progress,medium,2026-04-06 22:01:23.924882+00,
+31,Document metrics exporter #31,done,medium,2026-04-08 04:01:23.924882+00,2026-04-10 04:01:23.924882+00
+46,Refactor Ansible playbook #46,done,medium,2026-04-08 07:01:23.924882+00,2026-04-09 07:01:23.924882+00
+2,Document auth service #2,done,low,2026-04-08 13:01:23.924882+00,2026-04-10 13:01:23.924882+00
+15,Automate billing module #15,todo,low,2026-04-08 19:01:23.924882+00,
+165,Migrate cache layer #165,todo,low,2026-04-08 20:01:23.924882+00,
+136,Document database #136,todo,medium,2026-04-09 06:01:23.924882+00,
+59,Configure dashboard #59,todo,low,2026-04-09 07:01:23.924882+00,
+125,Configure billing module #125,todo,low,2026-04-09 13:01:23.924882+00,
+232,Refactor log shipper #232,done,medium,2026-04-09 18:01:23.924882+00,2026-04-16 18:01:23.924882+00
+169,Refactor billing module #169,todo,low,2026-04-10 11:01:23.924882+00,
+106,Configure Ansible playbook #106,done,medium,2026-04-11 13:01:23.924882+00,2026-04-17 13:01:23.924882+00
+75,Migrate metrics exporter #75,done,medium,2026-04-11 16:01:23.924882+00,2026-04-18 16:01:23.924882+00
+35,Document API gateway #35,done,low,2026-04-12 05:01:23.924882+00,2026-04-17 05:01:23.924882+00
+186,Patch auth service #186,todo,low,2026-04-12 11:01:23.924882+00,
+197,Patch cache layer #197,done,medium,2026-04-12 20:01:23.924882+00,2026-04-16 20:01:23.924882+00
+86,Patch cache layer #86,done,high,2026-04-12 22:01:23.924882+00,2026-04-13 22:01:23.924882+00
+77,Review cache layer #77,done,high,2026-04-13 04:01:23.924882+00,2026-04-20 04:01:23.924882+00
+107,Monitor auth service #107,done,low,2026-04-14 05:01:23.924882+00,2026-04-16 05:01:23.924882+00
+141,Investigate log shipper #141,todo,low,2026-04-14 18:01:23.924882+00,
+119,Monitor Ansible playbook #119,in_progress,medium,2026-04-15 00:01:23.924882+00,
+29,Provision log shipper #29,done,low,2026-04-15 06:01:23.924882+00,2026-04-19 06:01:23.924882+00
+163,Document database #163,todo,low,2026-04-15 19:01:23.924882+00,
+182,Deploy CI pipeline #182,todo,low,2026-04-15 23:01:23.924882+00,
+250,Configure Grafana panel #250,todo,high,2026-04-16 05:01:23.924882+00,
+246,Refactor auth service #246,done,low,2026-04-16 14:01:23.924882+00,2026-04-18 14:01:23.924882+00
+53,Migrate auth service #53,done,medium,2026-04-16 15:01:23.924882+00,2026-04-24 15:01:23.924882+00
+132,Configure auth service #132,todo,medium,2026-04-16 21:01:23.924882+00,
+133,Investigate cache layer #133,todo,high,2026-04-17 04:01:23.924882+00,
+185,Monitor Grafana panel #185,todo,medium,2026-04-17 10:01:23.924882+00,
+123,Configure Terraform module #123,todo,high,2026-04-17 12:01:23.924882+00,
+91,Investigate log shipper #91,done,high,2026-04-18 00:01:23.924882+00,2026-04-22 00:01:23.924882+00
+23,Deploy database #23,todo,medium,2026-04-18 07:01:23.924882+00,
+199,Configure Ansible playbook #199,todo,medium,2026-04-18 09:01:23.924882+00,
+27,Provision database #27,in_progress,high,2026-04-18 09:01:23.924882+00,
+209,Optimize log shipper #209,done,high,2026-04-18 12:01:23.924882+00,2026-04-26 12:01:23.924882+00
+214,Configure Ansible playbook #214,done,low,2026-04-18 12:01:23.924882+00,2026-04-28 12:01:23.924882+00
+194,Automate billing module #194,done,medium,2026-04-18 16:01:23.924882+00,2026-04-23 16:01:23.924882+00
+89,Configure API gateway #89,todo,medium,2026-04-18 18:01:23.924882+00,
+213,Configure billing module #213,todo,medium,2026-04-18 22:01:23.924882+00,
+244,Automate Ansible playbook #244,in_progress,high,2026-04-18 22:01:23.924882+00,
+30,Optimize metrics exporter #30,todo,medium,2026-04-19 04:01:23.924882+00,
+171,Provision dashboard #171,in_progress,medium,2026-04-19 18:01:23.924882+00,
+241,Migrate database #241,in_progress,medium,2026-04-20 03:01:23.924882+00,
+110,Patch database #110,todo,low,2026-04-20 09:01:23.924882+00,
+101,Document Ansible playbook #101,in_progress,low,2026-04-20 15:01:23.924882+00,
+64,Refactor Ansible playbook #64,done,high,2026-04-20 19:01:23.924882+00,2026-04-28 19:01:23.924882+00
+100,Configure billing module #100,in_progress,low,2026-04-20 21:01:23.924882+00,
+26,Configure log shipper #26,in_progress,high,2026-04-22 03:01:23.924882+00,
+48,Monitor CI pipeline #48,in_progress,medium,2026-04-22 03:01:23.924882+00,
+130,Review Terraform module #130,in_progress,low,2026-04-22 04:01:23.924882+00,
+143,Refactor auth service #143,done,medium,2026-04-22 10:01:23.924882+00,2026-04-30 10:01:23.924882+00
+227,Deploy API gateway #227,in_progress,high,2026-04-22 18:01:23.924882+00,
+28,Migrate database #28,todo,medium,2026-04-22 23:01:23.924882+00,
+12,Migrate log shipper #12,done,low,2026-04-23 02:01:23.924882+00,2026-05-03 02:01:23.924882+00
+233,Deploy Ansible playbook #233,todo,low,2026-04-24 02:01:23.924882+00,
+216,Refactor billing module #216,in_progress,medium,2026-04-25 16:01:23.924882+00,
+69,Investigate dashboard #69,done,medium,2026-04-25 19:01:23.924882+00,2026-05-03 19:01:23.924882+00
+228,Migrate auth service #228,todo,medium,2026-04-26 02:01:23.924882+00,
+147,Investigate billing module #147,done,medium,2026-04-26 02:01:23.924882+00,2026-05-06 02:01:23.924882+00
+164,Migrate database #164,done,high,2026-04-26 03:01:23.924882+00,2026-04-30 03:01:23.924882+00
+202,Configure auth service #202,done,high,2026-04-26 14:01:23.924882+00,2026-05-01 14:01:23.924882+00
+145,Configure Ansible playbook #145,done,low,2026-04-28 02:01:23.924882+00,2026-05-07 02:01:23.924882+00
+94,Optimize database #94,todo,low,2026-04-28 06:01:23.924882+00,
+65,Automate Terraform module #65,in_progress,low,2026-04-28 07:01:23.924882+00,
+149,Deploy billing module #149,done,low,2026-04-29 00:01:23.924882+00,2026-05-07 00:01:23.924882+00
+54,Automate API gateway #54,done,low,2026-04-29 01:01:23.924882+00,2026-05-09 01:01:23.924882+00
+208,Configure cache layer #208,todo,medium,2026-04-29 06:01:23.924882+00,
+212,Review Terraform module #212,todo,low,2026-04-29 07:01:23.924882+00,
+224,Patch database #224,todo,high,2026-04-29 08:01:23.924882+00,
+183,Provision log shipper #183,todo,medium,2026-04-29 09:01:23.924882+00,
+230,Investigate auth service #230,todo,medium,2026-04-29 21:01:23.924882+00,
+68,Optimize log shipper #68,in_progress,medium,2026-04-30 04:01:23.924882+00,
+150,Patch metrics exporter #150,todo,high,2026-04-30 17:01:23.924882+00,
+126,Investigate database #126,todo,low,2026-04-30 18:01:23.924882+00,
+55,Optimize auth service #55,in_progress,low,2026-05-01 06:01:23.924882+00,
+192,Investigate Grafana panel #192,in_progress,medium,2026-05-01 15:01:23.924882+00,
+200,Monitor API gateway #200,done,low,2026-05-01 22:01:23.924882+00,2026-05-09 22:01:23.924882+00
+127,Patch Ansible playbook #127,in_progress,medium,2026-05-02 03:01:23.924882+00,
+229,Migrate billing module #229,done,high,2026-05-03 05:01:23.924882+00,2026-05-04 05:01:23.924882+00
+234,Document Terraform module #234,done,low,2026-05-03 19:01:23.924882+00,2026-05-09 19:01:23.924882+00
+38,Provision Ansible playbook #38,done,low,2026-05-04 21:01:23.924882+00,2026-05-07 21:01:23.924882+00
+217,Document Ansible playbook #217,todo,low,2026-05-05 04:01:23.924882+00,
+235,Investigate cache layer #235,done,medium,2026-05-05 20:01:23.924882+00,2026-05-14 20:01:23.924882+00
+117,Migrate API gateway #117,done,high,2026-05-06 20:01:23.924882+00,2026-05-16 20:01:23.924882+00
+207,Automate cache layer #207,todo,high,2026-05-06 21:01:23.924882+00,
+121,Document Ansible playbook #121,in_progress,high,2026-05-07 17:01:23.924882+00,
+32,Monitor log shipper #32,done,medium,2026-05-08 13:01:23.924882+00,2026-05-18 13:01:23.924882+00
+58,Review Ansible playbook #58,in_progress,medium,2026-05-08 19:01:23.924882+00,
+191,Provision CI pipeline #191,done,medium,2026-05-09 10:01:23.924882+00,2026-05-14 10:01:23.924882+00
+49,Automate cache layer #49,done,medium,2026-05-09 14:01:23.924882+00,2026-05-14 14:01:23.924882+00
+16,Patch Terraform module #16,done,low,2026-05-09 15:01:23.924882+00,2026-05-13 15:01:23.924882+00
+63,Migrate Grafana panel #63,todo,medium,2026-05-10 05:01:23.924882+00,
+221,Deploy Ansible playbook #221,in_progress,low,2026-05-10 06:01:23.924882+00,
+18,Refactor dashboard #18,in_progress,medium,2026-05-10 11:01:23.924882+00,
+225,Investigate Terraform module #225,done,medium,2026-05-11 04:01:23.924882+00,2026-05-18 04:01:23.924882+00
+144,Configure CI pipeline #144,done,high,2026-05-11 18:01:23.924882+00,2026-05-20 18:01:23.924882+00
+42,Monitor dashboard #42,done,high,2026-05-12 13:01:23.924882+00,2026-05-17 13:01:23.924882+00
+161,Refactor dashboard #161,done,medium,2026-05-12 15:01:23.924882+00,2026-05-17 15:01:23.924882+00
+95,Review API gateway #95,todo,medium,2026-05-12 20:01:23.924882+00,
+160,Document cache layer #160,done,medium,2026-05-13 14:01:23.924882+00,2026-05-23 14:01:23.924882+00
+43,Investigate Grafana panel #43,done,medium,2026-05-14 05:01:23.924882+00,2026-05-18 05:01:23.924882+00
+71,Deploy Grafana panel #71,in_progress,medium,2026-05-15 17:01:23.924882+00,
+62,Configure metrics exporter #62,todo,medium,2026-05-16 21:01:23.924882+00,
+162,Monitor cache layer #162,todo,high,2026-05-17 06:01:23.924882+00,
+92,Document log shipper #92,done,medium,2026-05-17 19:01:23.924882+00,2026-05-19 19:01:23.924882+00
+128,Automate database #128,done,high,2026-05-17 20:01:23.924882+00,2026-05-24 20:01:23.924882+00
+10,Review log shipper #10,todo,low,2026-05-17 21:01:23.924882+00,
+51,Refactor CI pipeline #51,todo,medium,2026-05-17 23:01:23.924882+00,
+135,Migrate Grafana panel #135,done,high,2026-05-18 12:01:23.924882+00,2026-05-28 12:01:23.924882+00
+206,Configure Terraform module #206,done,medium,2026-05-18 14:01:23.924882+00,2026-05-22 14:01:23.924882+00
+189,Investigate auth service #189,done,medium,2026-05-18 21:01:23.924882+00,2026-05-19 21:01:23.924882+00
+112,Investigate dashboard #112,in_progress,medium,2026-05-19 02:01:23.924882+00,
+239,Automate Grafana panel #239,in_progress,medium,2026-05-19 03:01:23.924882+00,
+114,Review Ansible playbook #114,done,low,2026-05-19 05:01:23.924882+00,2026-05-22 05:01:23.924882+00
+195,Review auth service #195,in_progress,medium,2026-05-19 06:01:23.924882+00,
+74,Configure log shipper #74,in_progress,medium,2026-05-19 23:01:23.924882+00,
+52,Monitor API gateway #52,done,low,2026-05-20 00:01:23.924882+00,2026-05-23 00:01:23.924882+00
+118,Provision Grafana panel #118,in_progress,low,2026-05-20 01:01:23.924882+00,
+33,Document billing module #33,done,medium,2026-05-20 10:01:23.924882+00,2026-05-28 10:01:23.924882+00
+25,Review cache layer #25,todo,medium,2026-05-20 12:01:23.924882+00,
+236,Monitor metrics exporter #236,done,high,2026-05-20 13:01:23.924882+00,2026-05-30 13:01:23.924882+00
+3,Migrate Grafana panel #3,done,low,2026-05-20 23:01:23.924882+00,2026-05-29 23:01:23.924882+00
+151,Deploy Terraform module #151,done,medium,2026-05-21 08:01:23.924882+00,2026-05-28 08:01:23.924882+00
+56,Refactor billing module #56,done,high,2026-05-21 14:01:23.924882+00,2026-05-26 14:01:23.924882+00
+146,Deploy Ansible playbook #146,done,low,2026-05-21 20:01:23.924882+00,2026-05-30 18:01:23.924882+00
+7,Configure cache layer #7,done,high,2026-05-21 22:01:23.924882+00,2026-05-22 22:01:23.924882+00
+73,Refactor Grafana panel #73,in_progress,high,2026-05-22 20:01:23.924882+00,
+4,Monitor Terraform module #4,done,low,2026-05-23 09:01:23.924882+00,2026-05-26 09:01:23.924882+00
+148,Deploy CI pipeline #148,done,medium,2026-05-23 11:01:23.924882+00,2026-05-30 11:01:23.924882+00
+142,Document Grafana panel #142,done,medium,2026-05-23 22:01:23.924882+00,2026-05-24 22:01:23.924882+00
+198,Patch auth service #198,done,medium,2026-05-24 13:01:23.924882+00,2026-05-30 13:01:23.924882+00
+172,Review dashboard #172,todo,high,2026-05-24 14:01:23.924882+00,
+248,Configure dashboard #248,todo,low,2026-05-25 01:01:23.924882+00,
+83,Provision cache layer #83,done,medium,2026-05-25 02:01:23.924882+00,2026-05-30 18:01:23.924882+00
+61,Review CI pipeline #61,done,medium,2026-05-25 08:01:23.924882+00,2026-05-28 08:01:23.924882+00
+170,Review metrics exporter #170,done,low,2026-05-25 11:01:23.924882+00,2026-05-26 11:01:23.924882+00
+220,Refactor cache layer #220,done,low,2026-05-25 18:01:23.924882+00,2026-05-26 18:01:23.924882+00
+231,Optimize dashboard #231,todo,high,2026-05-26 04:01:23.924882+00,
+139,Monitor metrics exporter #139,done,low,2026-05-26 06:01:23.924882+00,2026-05-30 06:01:23.924882+00
+82,Deploy auth service #82,done,low,2026-05-26 21:01:23.924882+00,2026-05-30 18:01:23.924882+00
+98,Review Terraform module #98,todo,low,2026-05-28 11:01:23.924882+00,
+40,Refactor cache layer #40,done,medium,2026-05-28 12:01:23.924882+00,2026-05-30 12:01:23.924882+00
+72,Patch API gateway #72,done,medium,2026-05-29 02:01:23.924882+00,2026-05-30 18:01:23.924882+00
+67,Investigate Grafana panel #67,done,high,2026-05-29 09:01:23.924882+00,2026-05-30 18:01:23.924882+00
+153,Migrate metrics exporter #153,in_progress,medium,2026-05-29 17:01:23.924882+00,
+44,Provision auth service #44,done,high,2026-05-30 01:01:23.924882+00,2026-05-30 18:01:23.924882+00
