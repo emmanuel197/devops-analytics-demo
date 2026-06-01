@@ -30,12 +30,12 @@ dataset for Power BI.
 |---|-------|-----|--------|------|
 | 0 | Setup + Agile board + scaffold app | 45m | done | this page |
 | 1 | Jenkins CI pipeline | 2.5h | done | [[concepts/jenkins]] |
-| 2 | Prometheus + Grafana | 2.5h | not-started | [[concepts/prometheus-grafana]] |
+| 2 | Prometheus + Grafana | 2.5h | done | [[concepts/prometheus-grafana]] |
 | 3 | Terraform (IaC) | 2.5h | not-started | [[concepts/terraform]] |
 | 4 | Ansible (config mgmt) | 2h | not-started | [[concepts/ansible]] |
 | 5 | Power BI dashboard | 3.5h | done | [[concepts/power-bi]] |
 | 6 | ELK logging (stretch) | 2h | not-started | [[concepts/elk]] |
-| 7 | Agile/SDLC study + cheat sheet | 1h | not-started | [[concepts/agile-sdlc]] |
+| 7 | Agile/SDLC study + cheat sheet | 1h | done | [[concepts/agile-sdlc]] |
 
 ## Schedule
 - **Sat:** phases 0–2 (~6h)

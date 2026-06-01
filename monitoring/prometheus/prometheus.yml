@@ -1,0 +1,16 @@
+global:
+  scrape_interval: 5s          # scrape targets every 5 seconds
+  evaluation_interval: 5s
+
+scrape_configs:
+  # Scrape Prometheus' own metrics
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['localhost:9090']
+
+  # Scrape the TaskBoard Django app's /metrics endpoint.
+  # host.docker.internal = the Windows host, where the app publishes :8000.
+  - job_name: 'taskboard'
+    metrics_path: /metrics
+    static_configs:
+      - targets: ['host.docker.internal:8000']

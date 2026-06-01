@@ -2,6 +2,12 @@
 
 Append-only, newest at top. Format: `## [YYYY-MM-DD HH:MM] verb | title`.
 
+## [2026-06-01] phase-2+7 | Monitoring stack up + interview prep
+- Prometheus + Grafana running; Prometheus scraping app /metrics (target UP).
+- Grafana connected to Prometheus; request-rate PromQL graph.
+- Pivoted to interview prep: finalized cheat sheet, Agile/SDLC vocab page,
+  Prometheus page. Phases 0,1,2,5,7 done; Terraform/Ansible/ELK = talking points.
+
 ## [2026-05-31] phase-5 | Power BI dashboard built (done out of order)
 - Installed Power BI Desktop (winget). Connected LIVE to Postgres taskboard DB.
 - Wrote 4 DAX measures (Total/Completed/Completion Rate/Avg Days to Complete).
